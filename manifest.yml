@@ -1,0 +1,8 @@
+---
+applications:
+- name: concourse-push-button
+  memory: 1G
+  instances: 1
+  path: ./target/concourse-push-button-0.0.1-SNAPSHOT.jar
+  env:
+    PUSH_BUTTON_ENDPOINT: environment-endpoint
