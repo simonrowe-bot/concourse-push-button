@@ -5,4 +5,5 @@ applications:
   instances: 1
   path: ./target/concourse-push-button-0.0.1-SNAPSHOT.jar
   env:
-    PUSH_BUTTON_ENDPOINT: environment-endpoint
+    PUSH_BUTTON_ENDPOINT: https://wings.pivotal.io/api/v1/teams/pa-emea/pipelines/spring-music-sjr/jobs/ship-it/builds
+    REDIRECT_URL: https://concourse-push-button.cfapps.lab01.pcf.pw/token/set
