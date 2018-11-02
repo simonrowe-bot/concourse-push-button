@@ -1,8 +1,30 @@
 .push-button {
+    margin-top: 75px;
     text-align: center;
  }
 
 .push-button button {
-    width: 50%;
-    height: 50%;
+    border-radius: 45px;
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+h1 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+img.icon {
+    width: 300px;
+    height: 300px;
+}
+
+#happy {
+    display: none;
+    text-align: center;
+}
+
+#happy img {
+    margin-top: 75px;
 }
