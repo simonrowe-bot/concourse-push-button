@@ -9,9 +9,8 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-@EnableWebMvc
 @SpringBootApplication
-public class ConcoursePushButtonApplication {
+public class ConcoursePushButtonApplication  {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ConcoursePushButtonApplication.class, args);

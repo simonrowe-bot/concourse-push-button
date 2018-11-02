@@ -1,0 +1,8 @@
+.push-button {
+    text-align: center;
+ }
+
+.push-button button {
+    width: 50%;
+    height: 50%;
+}
